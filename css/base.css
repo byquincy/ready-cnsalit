@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cnsalit-black: #151717;
+    --cnsalit-white: #f7f6f2;
+    --cnsalit-beige: #928970;
+}
+
+html, body {
+    margin: 0;
+}
+body {
+    font-family: RIDIBatang;
+    word-spacing: 0.1rem;
+
+    margin-top: calc(6.5vh + 4vw);
+    margin-left: 8vw;
+    margin-right: 8vw;
+
+    width: 84vw;
+    height: calc(100vh - 4rem);
+
+    background-color: var(--cnsalit-white);
+}
+b {
+    font-weight: 700
+}
+
+a {
+    text-decoration: none;
+}
+n
+img {
+    width: 100%;
+}
+input {
+    font-family: RIDIBatang;
+    font-size: 1.3rem;
+
+    width: 100%;
+    border-style: solid;
+    border-color: var(--cnsalit-beige);
+    background-color: var(--cnsalit-white);
+    overflow: visible;
+
+    padding: 0.4rem;
+    width: calc(100% - 0.8rem);
+    border-radius: 5px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    font-size: 0.9rem;
+
+    width: 100%;
+    border-style: solid;
+    border-color: var(--cnsalit-beige);
+
+    border-radius: 5px;
+}
+
+header {
+    width: 100vw;
+    height: 4rem;
+
+    background-color: var(--cnsalit-beige);
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.15);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    z-index: 9999;
+}
+#demoAlert {
+    width: 100vw;
+    height: 2.2vh;
+
+    font-size: 1.4vh;
+    letter-spacing: normal;
+
+    color: var(--cnsalit-beige);
+    background-color: var(--cnsalit-black);
+
+    position: fixed;
+    text-align: center;
+
+    top: calc(97.8vh + 1px);
+    left: 0;
+    right: 0;
+
+    z-index: 10000;
+}
+
+#logo {
+    height: 100%;
+    width: auto;
+}
+#demo-alert {
+    height: 100%;
+    width: auto;
+}
+
+.title {
+    font-weight : 700;
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+
+    color: var(--cnsalit-beige);
+}
+.titleHR {
+    margin: 0;
+    border: 0;
+    height: 0.1rem;
+
+    background: var(--cnsalit-beige);
+}
+.titleSub {
+    margin: 0;
+
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#container {
+    margin-top: -4vw;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    
+    height: 100%;
+}
+
+#dayCount {
+    font-size: 2rem;
+}
